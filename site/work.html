@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Страница Студента</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style-work.css">
+</head>
+
+<body>
+    <header class="page-header">
+        <nav class="main-menu">
+            <ul>
+                <li><a href="../index.html">Сайт</a></li>
+                <li><a href="#work">Мои Работы</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="img22.jpg" alt="Фото">
+        </div>
+    </header>
+    <main id="work">
+
+        <article class="table1">
+            <table>
+                <caption>Таблица №2</caption>
+                <tr>
+                    <td colspan="5"></td>
+                </tr>
+                <tr>
+                    <td rowspan="3"></td>
+                    <td></td>
+                    <td rowspan="3"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="3"></td>
+                    <td rowspan="3"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </article>
+
+        <article class="table2">
+            <table>
+                <caption>Таблица</caption>
+                <tr>
+                    <td colspan="8" class="cyan"></td>
+                </tr>
+                <tr>
+                    <td rowspan="6" class="beige"></td>
+                    <td colspan="6" class="cyan"></td>
+                    <td rowspan="6" class="beige"></td>
+                </tr>
+                <tr>
+                    <td rowspan="4" class="beige"></td>
+                    <td colspan="4" class="cyan"></td>
+                    <td rowspan="4" class="beige"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="beige"></td>
+                    <td class="red"></td>
+                    <td class="blue"></td>
+                    <td rowspan="2" class="beige"></td>
+                </tr>
+                <tr>
+                    <td class="green"></td>
+                    <td class="yellow"></td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="cyan"></td>
+                </tr>
+                <tr>
+                    <td colspan="6" class="cyan"></td>
+                </tr>
+                <tr>
+                    <td colspan="8" class="cyan"></td>
+                </tr>
+            </table>
+        </article>
+
+        <article class="form1">
+            <h1>ЗАО ПТИЦЕФАБРИКА №1</h1>
+
+            <form>
+                <table>
+
+                    <tr>
+                        <td><label for="surname">Фамилия</label></td>
+                        <td><input type="text" id="surname" name="name" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="surname">Инициалы</label></td>
+                        <td><input type="text" id="initials" name="initials" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="password">Пароль</label></td>
+                        <td><input type="password" id="password" name="password" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="address">Адрес получателя</label></td>
+                        <td><input class="address" type="text" id="address" name="address" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="amount">Количество</label></td>
+                        <td><input class="amount" type="number" id="amount" name="amount" min="1" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="type">Тип</label></td>
+                        <td><select id="type-list1">
+                                <option value="Куриные">Куриные</option>
+                                <option value="Перепелинные">Перепелинные</option>
+                            </select>
+
+                            <select id="type-list1">
+                                <option value="Отборные">Отборные</option>
+                                <option value="Обычные">Обычные</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label>Доставка</label></td>
+
+                        <td><input type="radio" id="radio1" name="delivery" value="Mail">
+                            <label class="nonesp" for="radio1">Почтой</label>
+
+
+                            <input type="radio" id="radio2" name="delivery" value="Email">
+                            <label class="nonesp" for="radio2">Электронно</label>
+
+
+                            <input type="radio" id="radio3" name="delivery" value="Courier">
+                            <label class="nonesp" for="radio3">Курьер</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label id="checkbox"> Требуется накладная</label></td>
+                        <td><input type="checkbox" id="checkbox" name="Накладная"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="info">Дополнительная информация</label></td>
+                        <td><textarea name="info" id="info" cols="45em" rows="3">
+</textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td class="sell-button"><input type="submit" value="Заказать"></td>
+                        <td class="cancel-button"><input type="reset" value="Отменить"></td>
+                    </tr>
+
+                </table>
+            </form>
+        </article>
+
+        <article class="form2">
+            <h1>Пример формы регистрации сайта</h1>
+            <form enctype="multipart/form-data">
+
+                <label for="login">Логин:</label>
+                <br>
+                <input type="text" id="login" name="login">
+                <br>
+
+                <label for="password">Пароль:</label>
+                <br>
+                <input type="password" id="password" name="password" value="123456">
+                <br>
+
+                <label for="url">URL-адрес сайта:</label>
+                <br>
+                <input type="text" id="url" name="url" value="http://" size="20">
+                <br>
+
+                <label for="name">Название сайта:</label>
+                <br>
+                <input type="text" id="name" name="name" size="20">
+                <br>
+
+                <label for="descript">Описание сайта:</label>
+                <br>
+                <textarea id="descript" name="description" rows="8" cols="60"></textarea><br>
+
+                <label for="theme">Тема сайта:</label>
+                <br>
+                <select id="theme" name="theme">
+                    <option value="0" selected>Тема не выбрана</option>
+                    <option value="theme_1">Тема Первая</option>
+                </select>
+                <br>
+
+                <label for="banner">Баннер 88*31:</label>
+                <br>
+                <input type="file" id="banner" name="banner" size="20" value="Обзор.."><br>
+                <br>
+
+                <input class="button" type="reset" value="Очистить">
+                <input class="button" type="submit" value="Отправить">
+
+            </form>
+        </article>
+
+    </main>
+</body></html>
