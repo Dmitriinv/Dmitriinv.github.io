@@ -28,12 +28,7 @@ article {
     background-color: white;
 }
 
-.table1 {
-    padding-left: 10rem;
-}
-
 .table2 {
-    padding-left: 25rem;
     border-collapse: collapse;
 }
 
@@ -66,14 +61,6 @@ article {
     background-color: yellow;
 }
 
-.form1 h1 {
-    margin-left: 20rem;
-}
-
-.form1 form {
-    margin-left: 10rem;
-}
-
 .form1 label:not(.nonesp) {
     float: right;
 }
@@ -97,14 +84,6 @@ article {
 .form1,
 .form2 {
     font-size: 1rem;
-}
-
-.form1 {
-    padding-left: 10rem
-}
-
-.form2 {
-    padding-left: 27rem
 }
 
 .form2 .button {
